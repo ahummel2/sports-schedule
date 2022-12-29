@@ -1,0 +1,8 @@
+# league	team name	active
+basketball_nba	Chicago Bulls	true
+baseball_mlb	St. Louis Cardinals	true
+basketball_ncaab	Illinois Fighting Illini	true
+americanfootball_ncaaf	Illinois Fighting Illini	true
+hockey_nhl	Chicago Blackhawks	true
+soccer_epl	Manchester United	true
+americanfootball_nfl	Chicago Bears	true
