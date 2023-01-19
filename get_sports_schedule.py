@@ -144,7 +144,7 @@ def main():
             prog = "Sports Schedules",
             description = "Get sport things",
             epilog = "some epilog text")
-    parser.add_argument("-f", "--filename", type=str, default="teams.txt")
+    parser.add_argument("-f", "--filename", type=str, default="./teams.txt")
     parser.add_argument("-o", "--output", type=str, default="./SportsTeamsSchedule.txt")
     parser.add_argument("-b", "--betting-odds", action="store_true")
     parser.add_argument("-v", "--verbose", action="store_true")
