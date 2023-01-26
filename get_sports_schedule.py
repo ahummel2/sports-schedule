@@ -184,7 +184,8 @@ def main():
 
     if args.verbose:
         for each in data:
-            print('in main: ' + each)
+            if len(each) > 5:
+                print(datetime.datetime.now().strftime('%Y-%m-%dT%H:%M:%SZ'), 'in main: ' + each)
 
     return 0
 
